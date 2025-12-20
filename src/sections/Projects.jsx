@@ -7,7 +7,7 @@ const projectGroups = [
       {
         title: 'Hour of AI - Interactive Teaching Activity',
         date: 'December 2025',
-        image: '/assets/images/Projects/hourofcode.png',
+        image: `${import.meta.env.BASE_URL}assets/images/Projects/hourofcode.png`,
         description:
           'As part of the Hour of Code initiative, we worked with secondary school students who have limited access to technology, introducing them to the basics and importance of artificial intelligence. The experience focused on making AI understandable, inspiring curiosity, and showing how technology can be a tool for opportunity and inclusion.',
         technologies: ['Education', 'Game Development', 'AI', 'Algoritms'],
@@ -18,7 +18,7 @@ const projectGroups = [
       {
         title: 'Lab Experiement about the Logic Gates',
         date: 'October 2025',
-        image: '/assets/images/Projects/labwork.png',
+        image: `${import.meta.env.BASE_URL}assets/images/Projects/labwork.png`,
         description:
           'As part of our Principles of Information Systems lab work, we conducted a team-based experiment on logic gates to understand how fundamental logical operations work at the hardware and system level. The experiment helped us connect abstract logical concepts with practical system behavior and collaborative problem-solving.',
         technologies: ['Logic Gates', 'Circuit simulation tools', 'Critical Thinking', 'Teamwork'],
@@ -34,7 +34,7 @@ const projectGroups = [
       {
         title: 'Smart City and Green Future Forum',
         date: 'November 2025',
-        image: '/assets/images/Projects/smartcityforum.png',
+        image: `${import.meta.env.BASE_URL}assets/images/Projects/smartcityforum.png`,
         description:
           'A forum focused on how smart technologies and innovative solutions can support sustainable urban development and a greener future.',
         technologies: ['Smart city concepts', 'Urban Planning', 'Green Technologies'],
@@ -45,7 +45,7 @@ const projectGroups = [
       {
         title: 'Erasmus+ Exploring Cultures',
         date: 'August 2025',
-        image: '/assets/images/Projects/erasmus+.png',
+        image: `${import.meta.env.BASE_URL}assets/images/Projects/erasmus+.png`,
         description:
           'Participated in the Erasmus+ Exploring Cultures program in Georgia, collaborating with peers from Georgia, Azerbaijan, and Sweden to share cultural perspectives, develop intercultural skills, and engage in community projects.',
         technologies: ['Intercultural collaboration', 'Community Engagement', 'Teamwork'],
@@ -59,7 +59,7 @@ const projectGroups = [
       {
         title: 'Rebuild Karabakh Hackathon',
         date: 'November 2024',
-        image: '/assets/images/Projects/rebuildhack.png',
+        image: `${import.meta.env.BASE_URL}assets/images/Projects/rebuildhack.png`,
         description:
           'Developed a sustainable solution to absorb carbon dioxide and convert it into dry ice for use in other materials, aiming to reduce air pollution and promote eco-friendly innovations.',
         technologies: ['Hardware', 'Bio-Chemistry', 'Prototyping'],
@@ -70,7 +70,7 @@ const projectGroups = [
       {
         title: 'ABB Startup Challenge',
         date: '2022-2024',
-        image: '/assets/images/Projects/abbhack.png',
+        image: `${import.meta.env.BASE_URL}assets/images/Projects/abbhack.png`,
         description:
           'Participated in the ABB Startup Challenge, developing a concept for more ethical AI as lotAI team. Got the nomination for ABB Incubaition Stage.',
         technologies: ['Business Design', 'Research', 'Strategy'],
@@ -86,7 +86,7 @@ const projectGroups = [
       {
         title: 'Future Of Technology - Summer School (Dubai)',
         date: 'June-August 2022',
-        image: '/assets/images/Projects/aiandethics.jpg',
+        image: `${import.meta.env.BASE_URL}assets/images/Projects/aiandethics.jpg`,
         description:
           'Documenting solutions, patterns, and learnings from solving algorithms and data structure problems as part of my continuous CS foundation building.',
         technologies: ['AI and Ethics', 'Blockchain', 'Business'],
@@ -95,7 +95,7 @@ const projectGroups = [
       {
         title: 'Research Presentation: Azerbaijan Architecture',
         date: 'December 2025',
-        image: '/assets/images/Projects/azeculture.png',
+        image: `${import.meta.env.BASE_URL}assets/images/Projects/azeculture.png`,
         description:
           'A research project exploring how the architectural traditions of the Qarabağ region are reflected in modern reconstruction initiatives. The study examines historical styles, cultural identity.',
         technologies: ['Analysing', 'Research', 'Presentation'],

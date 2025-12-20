@@ -4,7 +4,7 @@ const Resume = () => {
   const handleDownload = () => {
     // Create a link element to trigger download
     const link = document.createElement('a');
-    link.href = '/assets/documents/Seljan_Bashirli_CV.pdf';
+    link.href = `${import.meta.env.BASE_URL}assets/documents/Seljan_Bashirli_CV.pdf`;
     link.download = 'Seljan_Bashirli_CV.pdf';
     document.body.appendChild(link);
     link.click();
@@ -134,7 +134,7 @@ const Resume = () => {
         <p className="mt-4 text-xs text-slate-400/70 font-poppins">
           Having trouble downloading?{' '}
           <a
-            href="/assets/documents/Seljan_Bashirli_CV.pdf"
+            href={`${import.meta.env.BASE_URL}assets/documents/Seljan_Bashirli_CV.pdf`}
             target="_blank"
             rel="noreferrer"
             className="text-cyan-300/80 underline transition-colors hover:text-cyan-300"

@@ -129,7 +129,7 @@ const About = () => {
           <div className="relative mt-3 px-4 pb-4">
             <div className="relative overflow-hidden rounded-2xl border border-white/10">
               <img
-                src="/assets/images/workspace.jpeg"
+                src={`${import.meta.env.BASE_URL}assets/images/workspace.jpeg`}
                 alt="Coding workspace"
                 className="h-48 w-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
