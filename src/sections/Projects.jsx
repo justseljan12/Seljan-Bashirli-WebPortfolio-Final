@@ -13,7 +13,7 @@ const projectGroups = [
         technologies: ['Education', 'Game Development', 'AI', 'Algoritms'],
         codeLabel: 'AI',
         demoLabel: 'Watch from YouTube',
-        demoUrl: 'https://www.youtube.com/watch?v=YOUR_VIDEO_ID',
+        demoUrl: 'https://youtu.be/FNDdClppHqc?si=2262HNCd-8cZfoMx',
       },
       {
         title: 'Lab Experiement about the Logic Gates',
