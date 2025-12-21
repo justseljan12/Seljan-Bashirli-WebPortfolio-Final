@@ -60,6 +60,11 @@ a {
   z-index: 1;
 }
 
+/* Ensure navbar is always on top */
+.app-shell > header {
+  z-index: 99999 !important;
+}
+
 /* Smooth scroll for anchor links */
 html {
   scroll-behavior: smooth;

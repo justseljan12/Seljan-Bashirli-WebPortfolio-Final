@@ -56,7 +56,7 @@ const Navbar = () => {
   };
 
   return (
-    <header className="fixed inset-x-0 top-0 z-[9999] md:relative md:z-50">
+    <header className="fixed inset-x-0 top-0 z-[99999] md:relative md:z-50" style={{ zIndex: 99999 }}>
       <nav
         className={`
           mx-auto flex max-w-6xl items-center justify-between
@@ -191,7 +191,7 @@ const Navbar = () => {
       {/* Mobile Menu Backdrop */}
       {isMenuOpen && (
         <div
-          className="fixed inset-0 top-[64px] z-[9998] bg-black/50 backdrop-blur-sm sm:hidden md:hidden"
+          className="fixed inset-0 top-[64px] z-[99998] bg-black/50 backdrop-blur-sm sm:hidden md:hidden"
           onClick={closeMenu}
           aria-hidden="true"
         />
@@ -199,7 +199,7 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="fixed inset-x-0 top-[64px] z-[9999] mx-2 sm:hidden md:hidden">
+        <div className="fixed inset-x-0 top-[64px] z-[99999] mx-2 sm:hidden md:hidden" style={{ zIndex: 99999 }}>
           <div className="rounded-3xl border border-white/10 bg-primary/95 backdrop-blur-2xl shadow-[0_24px_70px_rgba(0,0,0,0.85)] p-4 transition-all duration-300 animate-in slide-in-from-top-2">
             <ul className="flex flex-col gap-2">
               {navLinks.map((link) => (
